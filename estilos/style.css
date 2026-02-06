@@ -1,6 +1,6 @@
-{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+html {
+    font-family: Arial, Arial, Helvetica sans-serif;
+    font-size: 18px;
 }
 
 body {
@@ -8,13 +8,34 @@ body {
 
 }
 
-main{
+main {
     background-color: white;
     width: 500px;
-    margin:auto;
+    margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
 }
 img.lado {
     float: right;
+}
+
+#LogoHTML {
+    width: 200px;
+    height: 100px;
+}
+
+img {
+    width: 70px;
+    height: auto; /* mantém a proporção */
+}
+
+#HeaderJS {
+    background-color: rgb(202, 165, 236);
+    text-align: center;
+    padding: 10px;
+}
+
+#JsImage {
+    width: 130px;
+    height: auto;
 }
